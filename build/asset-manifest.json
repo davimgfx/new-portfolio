@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e641b58.css",
+    "main.js": "/static/js/main.352d55b2.js",
+    "static/media/pulsegym_project.png": "/static/media/pulsegym_project.b689a106e4c2dec8d76e.png",
+    "static/media/hoobank_project.png": "/static/media/hoobank_project.d3067864089e3cea5587.png",
+    "static/media/profile-image.png": "/static/media/profile-image.b2128334e4c03e897994.png",
+    "static/media/united-kingdom-logo.png": "/static/media/united-kingdom-logo.145b0a5444f606c1c847.png",
+    "static/media/brazil-logo.png": "/static/media/brazil-logo.0748505770dc2ee0c218.png",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.6e641b58.css.map": "/static/css/main.6e641b58.css.map",
+    "main.352d55b2.js.map": "/static/js/main.352d55b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e641b58.css",
+    "static/js/main.352d55b2.js"
+  ]
+}
