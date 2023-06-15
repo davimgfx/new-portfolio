@@ -9,7 +9,7 @@ const Home = () => {
           <h1 className="text-[15rem] text-[#150e2e] h1-text-shadow min800:text-center min540:text-[8rem]">
             REACT
           </h1>
-          <div className="flex gap-[5rem] justify-start min800:justify-center min800:mb-[-3rem]">
+          <div className="flex gap-[5rem] justify-start min800:justify-center min800:mb-[-3rem] min540:hidden">
             <div className="w-[3rem] h-[4rem] my-auto flex justify-center social-media ">
               <a
                 href="https://www.linkedin.com/in/davifncosta/"
@@ -47,6 +47,32 @@ const Home = () => {
           </p>
           <i className="fa-regular fa-hand-wave text-black w-[3rem]"></i>
         </div>
+        <div className="hidden gap-[5rem] justify-center  min540:flex mt-[2rem]">
+            <div className="w-[3rem] h-[4rem] my-auto flex justify-center social-media ">
+              <a
+                href="https://www.linkedin.com/in/davifncosta/"
+                className="my-auto"
+                target="_blank">
+                <i className="bx bxl-linkedin-square text-[3rem]"></i>
+              </a>
+            </div>
+            <div className="w-[5rem] h-[4rem] my-auto flex justify-center  social-media">
+              <a
+                href="https://github.com/davimgfx"
+                className="my-auto"
+                target="_blank">
+                <i className="bx bxl-github text-[3rem]"></i>
+              </a>
+            </div>
+            <div className="w-[3rem] h-[4rem] my-auto flex justify-center  social-media">
+              <a
+                href="https://docs.google.com/document/d/1YNGs1RQKiroGaeuBQKoO_0fr1lUpJ_TMopWq3sp7NfE/edit#heading=h.oxg6mjh8f3mu"
+                target="_blank"
+                className="my-auto">
+                <i className="fa-solid fa-file-arrow-down text-[3rem]"></i>
+              </a>
+            </div>
+          </div>
       </div>
     </section>
   );

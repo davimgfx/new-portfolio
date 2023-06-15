@@ -74,6 +74,10 @@ html {
   background-color: white
 }
 
+.nav-btn{
+  display: none;
+}
+
 .container {
   width: 100%;
   max-width: 91rem;
@@ -213,4 +217,49 @@ html {
     font-size: 55%;
   }
 
+}
+@media screen and (max-width: 540px) {
+  .nav-btn {
+    display: flex;
+    z-index: 101;
+  }
+
+
+  .nav-phone {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    z-index: 100;
+    padding: 2rem;
+    gap: 2rem;
+    background: #ffffff;
+    margin: auto;
+    flex-direction: column;
+    transition: 1s ease;
+    transform: translateX(-100vh);
+  
+  }
+  
+  .responsive_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    z-index: 100;
+    padding: 2rem;
+    gap: 2rem;
+    background: #FFFFFF;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 1.5rem;
+  }
 }
