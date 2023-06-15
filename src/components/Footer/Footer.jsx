@@ -1,11 +1,11 @@
-import React from "react";
+import "./style.css"
 import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t } = useTranslation(["footer"]);
   return (
-    <footer className="footer flex justify-center items-center gap-[28rem] py-[2rem] min800:gap-[2rem] min800:flex-col">
+    <footer className="footer gap-[30rem] min800:gap-[2rem] min800:flex-col ">
       <div className="footer__text">
-        <p className="text-center">
+        <p>
           Copyright &copy; 2023 <br className="hidden min300:block" /> {t("part1")} | <br className="hidden min540:block" /> {t("part2")}
         </p>
       </div>

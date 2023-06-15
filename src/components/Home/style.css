@@ -1,0 +1,17 @@
+
+  .social-media{
+    width: 5rem;
+    height: 5rem;
+    background: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: #150e2e;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .social-media:hover{
+    background-color: #754ef9;
+    color: white;
+    border: none;
+  }

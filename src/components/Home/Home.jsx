@@ -1,4 +1,4 @@
-import React from "react";
+import "./style.css"
 import { useTranslation } from "react-i18next";
 const Home = () => {
   const { t } = useTranslation(["home"]);
@@ -41,7 +41,7 @@ const Home = () => {
         </h1>
         <div className="h-[1.2rem] bg-[#754ef9] rounded transform translate-y-[-4.5rem] min800:translate-y-[-2.5rem] w-full min800:w-[50rem] min800:mx-[auto] min540:w-[28rem]  min540:translate-y-[-1.5rem]"></div>
         <div className="flex flex-row-reverse">
-          <p className="flex flex-end text-[1.8rem] w-[40rem] -mt-[3.8rem] leading-10 font-sans font-semibold text-[#150e2e85] min800:-mt-[0.8rem] min800:mx-[auto] min800:w-[auto] min800:text-center">
+          <p className="flex flex-end w-[40rem] -mt-[3.8rem] leading-10 font-sans description-p  min800:-mt-[0.8rem] min800:mx-[auto] min800:w-[auto] min800:text-center">
             {t("desc")}
             <br />
           </p>

@@ -1,0 +1,51 @@
+@import url('../../index.css');
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  
+}
+#light .footer{
+  background: var(--color-primary);
+}
+
+#dark .footer{
+  background: var(--color-bg-dark);
+}
+
+.footer__text {
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+}
+
+.footer__iconTop a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  background: #fff;
+  border-radius: 0.8rem;
+  border: 0.2rem solid var(--color-primary);
+  outline: 0.2rem solid transparent;
+  transition: 0.5 ease;
+}
+#light .footer{
+  border: 0.2rem solid var(--color-primary);
+}
+
+#dark .footer{
+  border: 0.2rem solid var(--color-bg-dark);
+}
+
+.footer__iconTop a:hover {
+  outline-color: #fff;
+}
+
+.footer__iconTop {
+  font-size: 2.4rem;
+  color: var(--color-primary);
+}

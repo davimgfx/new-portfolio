@@ -1,0 +1,29 @@
+.tech-stack{
+  font-size: 3.2rem;
+  color: var(--color-primary-dark);
+  text-transform: uppercase;
+  text-align: center;
+  margin: 6rem 0 2rem;
+}
+
+.diamond-border {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+}
+
+.diamond-border:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: rotate(45deg);
+  background-color: #754ef9;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 30px;
+  z-index: 1;
+}
