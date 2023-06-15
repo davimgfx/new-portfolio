@@ -6,6 +6,13 @@
   margin: 6rem 0 2rem;
 }
 
+.tech-name{
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.1rem;
+  color: var(--color-text-main);
+}
+
 .diamond-border {
   width: 130px;
   height: 130px;
@@ -22,7 +29,7 @@
   bottom: 0;
   transform: rotate(45deg);
   background-color: #754ef9;
-  border: 2px solid black;
+  border: 2px solid var(--color-text-main);
   border-radius: 15px;
   margin: 30px;
   z-index: 1;

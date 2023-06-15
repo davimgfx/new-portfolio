@@ -29,10 +29,18 @@
   padding: 0.8rem;
   background: #fff;
   border-radius: 0.8rem;
-  border: 0.2rem solid var(--color-primary);
   outline: 0.2rem solid transparent;
   transition: 0.5 ease;
 }
+
+#light .footer__iconTop a{
+  border: 0.2rem solid var(--color-primary);
+}
+
+#dark .footer__iconTop a{
+  border: 0.2rem solid var(--color-bg);
+}
+
 #light .footer{
   border: 0.2rem solid var(--color-primary);
 }

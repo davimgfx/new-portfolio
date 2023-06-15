@@ -46,7 +46,7 @@ const { t } = useTranslation(["about"]);
                       <i
                         className={`bx ${key.icon} text-[2.5rem] text-center my-auto text-[white] z-[3]`}></i>
                     </div>
-                    <h2 className="text-center text-[2.1rem] font-semibold ">
+                    <h2 className="tech-name">
                       {key.name}
                     </h2>
                   </div>
