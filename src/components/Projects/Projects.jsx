@@ -20,10 +20,10 @@ const Projects = () => {
           <a
             href="https://davimgfx.github.io/pulseGym/"
             target="_blank"
-            className="projects-container-image my-auto md1024:ml-[2rem] min800:mx-auto min480:w-[200px] min480:h-[200px]">
+            className="projects-container-image md1024:ml-[2rem] my-auto min800:mx-auto">
             <img src={pulsegym} alt="" className="projects-image-1" />
           </a>
-          <div className="flex flex-col  w-[400px] text-center p-[1rem] projects-container-desc  min800:mx-auto min480:w-[20rem] ">
+          <div className="flex flex-col  w-[400px] text-center p-[1rem] projects-container-desc  min800:mx-auto min480:w-auto ">
             <h2 className="project-title">Pulse Gym 🏋️‍♀️</h2>
             <p className="description-p mt-[1.2rem] ">
               {t("pulsegym")}
@@ -58,12 +58,12 @@ const Projects = () => {
           <a
             href="https://davimgfx.github.io/hoobank/"
             target="_blank"
-            className="projects-container-image my-auto md1024:mr-[2rem] min800:mx-auto min480:w-[200px] min480:h-[200px]">
+            className="projects-container-image md1024:mr-[2rem] my-auto min800:mx-auto">
             <img src={hoobank} alt="" className="projects-image-2 " />
           </a>
-          <div className="flex flex-col  w-[400px] text-center p-[1rem] projects-container-desc min800:mx-auto min480:w-[20rem]">
+          <div className="flex flex-col  w-[400px] text-center p-[1rem] projects-container-desc min800:mx-auto min480:w-auto">
             <h2 className="project-title">Hoobank 🤖</h2>
-            <p className="text-[1.8rem] description-p mt-[1.2rem] min480:w-[20rem] min480:mx-auto ">
+            <p className="text-[1.8rem] description-p mt-[1.2rem]  min480:mx-auto ">
             {t("hoobank")}
             </p>
             <div className="flex justify-center gap-[1rem] my-[2rem] flex-wrap min480:mx-auto ">
