@@ -1,4 +1,4 @@
-# My Portfolio
+# My Portfolio (English Version)
 
 This is my portfolio project, created with React and Tailwind CSS. It features both English and Portuguese versions using the i18n library for internationalization. It also supports dark and light mode with the use of ThemeContext. The design is responsive and showcases two projects: PulseGym and Hoobank.
 
