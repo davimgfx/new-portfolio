@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# My Portfolio (English version)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my portfolio project, created with React and Tailwind CSS. It features both English and Portuguese versions using the i18n library for internationalization. It also supports dark and light mode with the use of ThemeContext. The design is responsive and showcases two projects: PulseGym and Hoobank.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+- React
+- Tailwind CSS
+- i18n
+- ThemeContext
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- English and Portuguese Versions: Through the i18n library, the website is automatically translated to the selected language by the user.
+- Dark and Light Mode: The website supports both light and dark mode, allowing users to choose their preferred color scheme.
+- Responsive Design: The website design adapts to different screen sizes, providing a pleasant experience on mobile devices and desktops.
+- Projects:
+  - PulseGym: Provides information about PulseGym, including description, screenshots, and related links.
+  - Hoobank: Displays information about Hoobank, such as features, demo, and relevant links.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository: `git clone https://github.com/your-username/my-portfolio.git`
+2. Navigate to the project directory: `cd my-portfolio`
+3. Install the dependencies: `npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. Start the development server: `npm start`
+2. Open your browser and visit: `http://localhost:3000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribution
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I hope this updated example of the `README.md` file is helpful for your portfolio project! Feel free to customize it according to your project's needs.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Meu Portfólio ( Versão português )
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este é o meu projeto de portfólio, criado com React e Tailwind CSS. Ele apresenta uma versão em inglês e português utilizando a biblioteca i18n para internacionalização. Além disso, também possui suporte ao modo claro e escuro com o uso do ThemeContext. O design é responsivo e contém dois projetos: PulseGym e Hoobank.
 
-## Learn More
+## Tecnologias utilizadas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React
+- Tailwind CSS
+- i18n
+- ThemeContext
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Funcionalidades
 
-### Code Splitting
+- Versão em inglês e português: Através da biblioteca i18n, o site é traduzido automaticamente para o idioma selecionado pelo usuário.
+- Modo claro e escuro: O site suporta tanto o modo claro quanto o modo escuro, permitindo que o usuário escolha a preferência de cores.
+- Responsivo: O design do site se adapta a diferentes tamanhos de tela, proporcionando uma experiência agradável em dispositivos móveis e desktops.
+- Projetos:
+  - PulseGym: Apresenta informações sobre o PulseGym, incluindo descrição, capturas de tela e links relacionados.
+  - Hoobank: Exibe informações sobre o Hoobank, como recursos, demonstração e links relevantes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Instalação
 
-### Analyzing the Bundle Size
+1. Clone o repositório: `git clone https://github.com/seu-usuario/meu-portfolio.git`
+2. Acesse o diretório do projeto: `cd meu-portfolio`
+3. Instale as dependências: `npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Uso
 
-### Making a Progressive Web App
+1. Inicie o servidor de desenvolvimento: `npm start`
+2. Abra o navegador e acesse: `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contribuição
 
-### Advanced Configuration
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Licença
 
-### Deployment
+Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Espero que este exemplo de `README.md` seja útil para o seu projeto de portfólio! Sinta-se à vontade para personalizá-lo de acordo com as necessidades do seu projeto.
