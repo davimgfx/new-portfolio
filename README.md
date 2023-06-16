@@ -1,4 +1,4 @@
-# My Portfolio (English version)
+# My Portfolio
 
 This is my portfolio project, created with React and Tailwind CSS. It features both English and Portuguese versions using the i18n library for internationalization. It also supports dark and light mode with the use of ThemeContext. The design is responsive and showcases two projects: PulseGym and Hoobank.
 
@@ -39,9 +39,7 @@ This project is licensed under the MIT License. For more details, please refer t
 
 ---
 
-I hope this updated example of the `README.md` file is helpful for your portfolio project! Feel free to customize it according to your project's needs.
-
-# Meu Portfólio ( Versão português )
+# Meu Portfólio (Versão português)
 
 Este é o meu projeto de portfólio, criado com React e Tailwind CSS. Ele apresenta uma versão em inglês e português utilizando a biblioteca i18n para internacionalização. Além disso, também possui suporte ao modo claro e escuro com o uso do ThemeContext. O design é responsivo e contém dois projetos: PulseGym e Hoobank.
 
@@ -81,5 +79,3 @@ Contribuições são bem-vindas! Se você encontrar algum problema ou tiver suge
 Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
 
 ---
-
-Espero que este exemplo de `README.md` seja útil para o seu projeto de portfólio! Sinta-se à vontade para personalizá-lo de acordo com as necessidades do seu projeto.
