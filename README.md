@@ -2,7 +2,9 @@
 
 This is my portfolio project, created with React and Tailwind CSS. It features both English and Portuguese versions using the i18n library for internationalization. It also supports dark and light mode with the use of ThemeContext. The design is responsive and showcases two projects: PulseGym and Hoobank.
 
-## Technologies Used
+👉 Live Demo: [Click here](https://davimgfx.vercel.app/)
+
+### Build with:
 
 - React
 - Tailwind CSS
@@ -29,7 +31,9 @@ This is my portfolio project, created with React and Tailwind CSS. It features b
 
 Este é o meu projeto de portfólio, criado com React e Tailwind CSS. Ele apresenta uma versão em inglês e português utilizando a biblioteca i18n para internacionalização. Além disso, também possui suporte ao modo claro e escuro com o uso do ThemeContext. O design é responsivo e contém dois projetos: PulseGym e Hoobank.
 
-## Tecnologias utilizadas
+👉 Site: [Click here](https://davimgfx.vercel.app/)
+
+### Tecnologias utilizadas
 
 - React
 - Tailwind CSS
@@ -45,7 +49,7 @@ Este é o meu projeto de portfólio, criado com React e Tailwind CSS. Ele aprese
   - PulseGym: Apresenta informações sobre o PulseGym, incluindo descrição, capturas de tela e links relacionados.
   - Hoobank: Exibe informações sobre o Hoobank, como recursos, demonstração e links relevantes.
 
-## Fotos do projeo
+## Fotos do projeto
 ### Modo claro ( Versão Português)
 ![screencapture-davimgfx-vercel-app-2023-06-17-09_47_36](https://github.com/davimgfx/new-portfolio/assets/118557337/95f6974e-8071-40c5-b76e-7021ab5bfa85)
 
