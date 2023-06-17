@@ -1,4 +1,7 @@
+<div align='center'><img style="width:16%" src='https://github.com/davimgfx/new-portfolio/assets/118557337/6031622f-5695-4246-a31a-c48e0d1b6f16'/></div>
+
 # My Portfolio (English Version)
+
 
 This is my portfolio project, created with React and Tailwind CSS. It features both English and Portuguese versions using the i18n library for internationalization. It also supports dark and light mode with the use of ThemeContext. The design is responsive and showcases two projects: PulseGym and Hoobank.
 
