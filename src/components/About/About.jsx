@@ -26,7 +26,7 @@ const About = () => {
             <h2 className="text-[2.5rem] text-[#754ef9] uppercase min800:text-center">
               {t("about-phrase")}
             </h2>
-            <p className="leading-10 font-sans description-p">
+            <p className="leading-10 font-sans description-p min800:text-center min800:mt-[1.2rem]">
               {t("desc1")} <br />
               <br />
               {t("desc2")} <br />
