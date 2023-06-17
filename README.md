@@ -18,26 +18,12 @@ This is my portfolio project, created with React and Tailwind CSS. It features b
   - PulseGym: Provides information about PulseGym, including description, screenshots, and related links.
   - Hoobank: Displays information about Hoobank, such as features, demo, and relevant links.
 
-## Installation
+## Screenshots of the Project
+### Light Mode (English Version)
+![screencapture-davimgfx-vercel-app-2023-06-17-09_44_28](https://github.com/davimgfx/new-portfolio/assets/118557337/7c0ed48d-1236-4de7-ac94-36fd17794f8c)
 
-1. Clone the repository: `git clone https://github.com/your-username/my-portfolio.git`
-2. Navigate to the project directory: `cd my-portfolio`
-3. Install the dependencies: `npm install`
-
-## Usage
-
-1. Start the development server: `npm start`
-2. Open your browser and visit: `http://localhost:3000`
-
-## Contribution
-
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
-
----
+### Dark Mode (English Version)
+![screencapture-davimgfx-vercel-app-2023-06-17-09_44_35](https://github.com/davimgfx/new-portfolio/assets/118557337/9ffce6be-9952-4aed-a2cc-a06a352b088d)
 
 # Meu Portfólio (Versão português)
 
@@ -59,23 +45,10 @@ Este é o meu projeto de portfólio, criado com React e Tailwind CSS. Ele aprese
   - PulseGym: Apresenta informações sobre o PulseGym, incluindo descrição, capturas de tela e links relacionados.
   - Hoobank: Exibe informações sobre o Hoobank, como recursos, demonstração e links relevantes.
 
-## Instalação
+## Fotos do projeo
+### Modo claro ( Versão Português)
+![screencapture-davimgfx-vercel-app-2023-06-17-09_47_36](https://github.com/davimgfx/new-portfolio/assets/118557337/95f6974e-8071-40c5-b76e-7021ab5bfa85)
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/meu-portfolio.git`
-2. Acesse o diretório do projeto: `cd meu-portfolio`
-3. Instale as dependências: `npm install`
 
-## Uso
-
-1. Inicie o servidor de desenvolvimento: `npm start`
-2. Abra o navegador e acesse: `http://localhost:3000`
-
-## Contribuição
-
-Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
-
----
+### Modo escuro ( Versão Português)
+![screencapture-davimgfx-vercel-app-2023-06-17-09_46_40 (1)](https://github.com/davimgfx/new-portfolio/assets/118557337/554a239d-fc86-4d71-b814-bb09d12772af)
