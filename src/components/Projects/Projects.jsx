@@ -2,6 +2,7 @@ import "./style.css"
 import { useTranslation } from "react-i18next";
 import hoobank from "../../images/projects/hoobank_project.png";
 import pulsegym from "../../images/projects/pulsegym_project.png";
+import cryptoNeves from "../../images/projects/crypto_project.png";
 
 const Projects = () => {
   const { t } = useTranslation(["projects"]);
@@ -93,6 +94,49 @@ const Projects = () => {
                   </h2>
                 </a>
               </div>
+
+            </div>
+            
+          </div>
+        </div>
+        <div className="projects flex gap-[2rem] justify-center py-[3rem] mt-[3rem] min800:flex-col ">
+          <a
+            href="https://crypto-neves.vercel.app/"
+            target="_blank"
+            className="projects-container-image md1024:ml-[2rem] my-auto min800:mx-auto">
+            <img src={cryptoNeves} alt="" className="projects-image-3" />
+          </a>
+          <div className="flex flex-col  w-[400px] text-center p-[1rem] projects-container-desc  min800:mx-auto min480:w-auto ">
+            <h2 className="project-title">CryptoNeves 💰</h2>
+            <p className="description-p mt-[1.2rem] ">
+              {t("cryptoneves")}
+            </p>
+            <div className="flex justify-center gap-[1rem] my-[2rem] flex-wrap min480:mx-auto ">
+              <h2 className="projects-tech">
+                React
+              </h2>
+              <h2 className="projects-tech">
+              Material UI
+              </h2>
+              <h2 className="projects-tech">
+              Alice Carousel
+              </h2>
+            </div>
+            <div className="flex justify-center gap-[1rem] ">
+              <a href="https://github.com/davimgfx/crypto-neves" target="_blank">
+                <div className="flex">
+                  <h2 className="projects-infos">
+                    {t("code")} <i className="fa-brands fa-github"></i>
+                  </h2>
+                </div>
+              </a>
+              <a href="https://crypto-neves.vercel.app/" target="_blank">
+                <div className="flex">
+                  <h2 className="projects-infos">
+                  {t("code-live")} <i className="fa-solid fa-arrow-up-right-from-square text-[1.8rem]"></i>
+                  </h2>
+                </div>
+              </a>
             </div>
           </div>
         </div>
