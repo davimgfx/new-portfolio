@@ -66,7 +66,7 @@
 }
 
 .projects-image-4:hover {
-  transform: translateY(-81%);
+  transform: translateY(-76.7%);
 }
 
 .project-title {
@@ -120,11 +120,11 @@
   }
 
   .projects-image-1:hover {
-    transform: translateY(-74%);
+    transform: translateY(-73%);
   }
 
   .projects-image-2:hover {
-    transform: translateY(-38%);
+    transform: translateY(-37.8%);
   }
 
   .projects-image-3:hover {
@@ -132,6 +132,6 @@
   }
 
   .projects-image-4:hover {
-    transform: translateY(-68%);
+    transform: translateY(-64%);
   }
 }
