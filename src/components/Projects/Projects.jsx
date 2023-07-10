@@ -3,6 +3,7 @@ import aumigos from "../../images/projects/aumigos_project.png";
 import cryptoNeves from "../../images/projects/crypto_project.png";
 import hoobank from "../../images/projects/hoobank_project.png";
 import pulsegym from "../../images/projects/pulsegym_project.png";
+import pulsegymLoading from "../../images/projects/pulsegym_loading.png";
 import "./style.css";
 
 const Projects = () => {
@@ -25,7 +26,7 @@ const Projects = () => {
             href="https://aumigos-casa.vercel.app/"
             target="_blank"
             className="projects-container-image md1024:mr-[2rem] my-auto min800:mx-auto">
-            <img src={aumigos} alt="" className="projects-image-4 " />
+            <img src={aumigos} alt="aumigos-project" className="projects-image-4 " />
           </a>
           <div className="flex flex-col  w-[400px] text-center p-[1rem] projects-container-desc min800:mx-auto min480:w-auto">
             <h2 className="project-title">Aumigos 🐶</h2>
@@ -61,7 +62,7 @@ const Projects = () => {
             href="https://davimgfx.github.io/pulseGym/"
             target="_blank"
             className="projects-container-image md1024:ml-[2rem] my-auto min800:mx-auto">
-            <img src={pulsegym} alt="" className="projects-image-1" />
+            <img src={pulsegym} alt="pulsegym-project" className="projects-image-1" />
           </a>
           <div className="flex flex-col  w-[400px] text-center p-[1rem] projects-container-desc  min800:mx-auto min480:w-auto ">
             <h2 className="project-title">Pulse Gym 🏋️‍♀️</h2>
@@ -95,7 +96,7 @@ const Projects = () => {
             href="https://davimgfx.github.io/hoobank/"
             target="_blank"
             className="projects-container-image md1024:mr-[2rem] my-auto min800:mx-auto">
-            <img src={hoobank} alt="" className="projects-image-2 " />
+            <img src={hoobank} alt="hoobank-project" className="projects-image-2 " />
           </a>
           <div className="flex flex-col  w-[400px] text-center p-[1rem] projects-container-desc min800:mx-auto min480:w-auto">
             <h2 className="project-title">Hoobank 🤖</h2>
@@ -133,7 +134,7 @@ const Projects = () => {
             href="https://crypto-neves.vercel.app/"
             target="_blank"
             className="projects-container-image md1024:ml-[2rem] my-auto min800:mx-auto">
-            <img src={cryptoNeves} alt="" className="projects-image-3" />
+            <img src={cryptoNeves} alt="cryptoNeves-project" className="projects-image-3" />
           </a>
           <div className="flex flex-col  w-[400px] text-center p-[1rem] projects-container-desc  min800:mx-auto min480:w-auto ">
             <h2 className="project-title">CryptoNeves 💰</h2>
@@ -141,7 +142,7 @@ const Projects = () => {
             <div className="flex justify-center gap-[1rem] my-[2rem] flex-wrap min480:mx-auto ">
               <h2 className="projects-tech">React</h2>
               <h2 className="projects-tech">Material UI</h2>
-              <h2 className="projects-tech">Alice Carousel</h2>
+              <h2 className="projects-tech">Firebase</h2>
             </div>
             <div className="flex justify-center gap-[1rem] ">
               <a
