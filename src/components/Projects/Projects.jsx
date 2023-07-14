@@ -3,7 +3,7 @@ import aumigos from "../../images/projects/aumigos_project.png";
 import cryptoNeves from "../../images/projects/crypto_project.png";
 import hoobank from "../../images/projects/hoobank_project.png";
 import pulsegym from "../../images/projects/pulsegym_project.png";
-import pulsegymLoading from "../../images/projects/pulsegym_loading.png";
+
 import "./style.css";
 
 const Projects = () => {
@@ -36,6 +36,7 @@ const Projects = () => {
             <div className="flex justify-center gap-[1rem] my-[2rem] flex-wrap min480:mx-auto ">
               <h2 className="projects-tech">React</h2>
               <h2 className="projects-tech">Tailwind CSS</h2>
+              <h2 className="projects-tech">Firebase</h2>
             </div>
             <div className="flex justify-center gap-[1rem] ">
               <div className="flex">
@@ -59,27 +60,28 @@ const Projects = () => {
         {/* Project 3 */}
         <div className="projects flex gap-[2rem] justify-center py-[3rem] mt-[3rem] min800:flex-col ">
           <a
-            href="https://davimgfx.github.io/pulseGym/"
+            href="https://crypto-neves.vercel.app/"
             target="_blank"
             className="projects-container-image md1024:ml-[2rem] my-auto min800:mx-auto">
-            <img src={pulsegym} alt="pulsegym-project" className="projects-image-1" />
+            <img src={cryptoNeves} alt="cryptoNeves-project" className="projects-image-3" />
           </a>
           <div className="flex flex-col  w-[400px] text-center p-[1rem] projects-container-desc  min800:mx-auto min480:w-auto ">
-            <h2 className="project-title">Pulse Gym 🏋️‍♀️</h2>
-            <p className="description-p mt-[1.2rem] ">{t("pulsegym")}</p>
+            <h2 className="project-title">Crypto Neves 💰</h2>
+            <p className="description-p mt-[1.2rem] ">{t("cryptoneves")}</p>
             <div className="flex justify-center gap-[1rem] my-[2rem] flex-wrap min480:mx-auto ">
               <h2 className="projects-tech">React</h2>
-              <h2 className="projects-tech">Tailwind CSS</h2>
+              <h2 className="projects-tech">Material UI</h2>
+              <h2 className="projects-tech">Firebase</h2>
             </div>
             <div className="flex justify-center gap-[1rem] ">
-              <a href="https://github.com/davimgfx/pulseGym" target="_blank">
+              <a href="https://github.com/davimgfx/crypto-neves" target="_blank">
                 <div className="flex">
                   <h2 className="projects-infos">
                     {t("code")} <i className="fa-brands fa-github"></i>
                   </h2>
                 </div>
               </a>
-              <a href="https://davimgfx.github.io/pulseGym/" target="_blank">
+              <a href="https://crypto-neves.vercel.app/" target="_blank">
                 <div className="flex">
                   <h2 className="projects-infos">
                     {t("code-live")}{" "}
@@ -131,22 +133,21 @@ const Projects = () => {
         {/* Project 1 */}
         <div className="projects flex gap-[2rem] justify-center py-[3rem] mt-[3rem] min800:flex-col ">
           <a
-            href="https://crypto-neves.vercel.app/"
+            href="https://davimgfx.github.io/pulseGym/"
             target="_blank"
             className="projects-container-image md1024:ml-[2rem] my-auto min800:mx-auto">
-            <img src={cryptoNeves} alt="cryptoNeves-project" className="projects-image-3" />
+            <img src={pulsegym} alt="pulseGym-project" className="projects-image-1" />
           </a>
           <div className="flex flex-col  w-[400px] text-center p-[1rem] projects-container-desc  min800:mx-auto min480:w-auto ">
-            <h2 className="project-title">CryptoNeves 💰</h2>
-            <p className="description-p mt-[1.2rem] ">{t("cryptoneves")}</p>
+            <h2 className="project-title">Pulse Gym 🏋️‍♀️</h2>
+            <p className="description-p mt-[1.2rem] ">{t("pulsegym")}</p>
             <div className="flex justify-center gap-[1rem] my-[2rem] flex-wrap min480:mx-auto ">
               <h2 className="projects-tech">React</h2>
-              <h2 className="projects-tech">Material UI</h2>
-              <h2 className="projects-tech">Firebase</h2>
+              <h2 className="projects-tech">Tailwind CSS</h2>
             </div>
             <div className="flex justify-center gap-[1rem] ">
               <a
-                href="https://github.com/davimgfx/crypto-neves"
+                href="https://github.com/davimgfx/pulseGym"
                 target="_blank">
                 <div className="flex">
                   <h2 className="projects-infos">
@@ -154,7 +155,7 @@ const Projects = () => {
                   </h2>
                 </div>
               </a>
-              <a href="https://crypto-neves.vercel.app/" target="_blank">
+              <a href="https://davimgfx.github.io/pulseGym/" target="_blank">
                 <div className="flex">
                   <h2 className="projects-infos">
                     {t("code-live")}{" "}
