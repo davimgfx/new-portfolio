@@ -22,7 +22,7 @@ const ProjectsDivs = ({ src, title, flexRowReverse, name, techs, linkCode, linkS
       <a
         href={linkSite}
         target="_blank"
-        className={`projects-container-image md1024:${flexRowReverse ? "mr" : "ml"}-[2rem] my-auto min800:mx-auto`}>
+        className={`projects-container-image ${flexRowReverse ? "md1024:mr-[2rem]" : "md1024:ml-[2rem]"} my-auto min800:mx-auto`}>
             { !imageLoaded && (
                 <Blurhash 
                 hash={srcLoading}
